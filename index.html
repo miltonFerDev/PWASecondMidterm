@@ -13,16 +13,18 @@
     <title>Document</title>
 </head>
 
-<body class="bg-[#2662A0]">
+<body class="bg-[#2662A0] min-h-screen flex flex-col">
 
 
     <h1 class="text-white text-6xl font-bold ml-[20px] mt-[40px]">2nd BRAIN</h1>
 
     <main class="justify-items-center">
-        <div id="note__card" class="bg-[#0A7EC1] mx-[20px] mt-[40px] mb-[10px] py-[15px] px-[10px] max-w-sm rounded-lg flex items-center space-x-4">
+        <div id="note__card"
+            class="bg-[#0A7EC1] mx-[20px] mt-[40px] mb-[10px] py-[15px] px-[10px] max-w-sm rounded-lg flex items-center space-x-4">
             <div id="play__button">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-play text-white mx-[10px] hover:text-gray-300"
-                    width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-player-play text-white mx-[10px] hover:text-gray-300" width="40"
+                    height="40" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
                     stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <path d="M7 4v16l13 -8z" />
@@ -33,11 +35,13 @@
                 <p id="card__dateTime" class="text-white">14/07/2024</p>
             </div>
         </div>
-    
-        <div id="note__card" class="bg-[#0A7EC1] mx-[20px] mt-[40px] mb-[10px] py-[15px] px-[10px] max-w-sm rounded-lg flex items-center space-x-4">
+
+        <div id="note__card"
+            class="bg-[#0A7EC1] mx-[20px] mt-[40px] mb-[10px] py-[15px] px-[10px] max-w-sm rounded-lg flex items-center space-x-4">
             <div id="play__button">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-play text-white mx-[10px] hover:text-gray-300"
-                    width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-player-play text-white mx-[10px] hover:text-gray-300" width="40"
+                    height="40" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
                     stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <path d="M7 4v16l13 -8z" />
@@ -48,11 +52,13 @@
                 <p id="card__dateTime" class="text-white">14/07/2024</p>
             </div>
         </div>
-    
-        <div id="note__card" class="bg-[#0A7EC1] mx-[20px] mt-[40px] mb-[10px] py-[15px] px-[10px] max-w-sm rounded-lg flex items-center space-x-4">
+
+        <div id="note__card"
+            class="bg-[#0A7EC1] mx-[20px] mt-[40px] mb-[10px] py-[15px] px-[10px] max-w-sm rounded-lg flex items-center space-x-4">
             <div id="play__button">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-play text-white mx-[10px] hover:text-gray-300"
-                    width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-player-play text-white mx-[10px] hover:text-gray-300" width="40"
+                    height="40" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
                     stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <path d="M7 4v16l13 -8z" />
@@ -64,7 +70,45 @@
             </div>
         </div>
     </main>
-    
+    <div class="bg-[#141A24] h-16 mt-auto">
+        <nav class="flex place-content-between items-center mt-[10px]">
+            <div id="edit__button">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil text-[#57595E] ml-[20px] hover:text-[#363739]" width="48"
+                    height="48" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                </svg>
+            </div>
+            <div id="add__button"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus text-[#C8B760] hover:text-[#7C723C]"
+                    width="48" height="48" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M12 5l0 14" />
+                    <path d="M5 12l14 0" />
+                </svg>
+            </div>
+            <div id="settings__button">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-settings-cog text-[#57595E] mr-[20px] hover:text-[#363739]" width="48"
+                    height="48" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                        d="M12.003 21c-.732 .001 -1.465 -.438 -1.678 -1.317a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c.886 .215 1.325 .957 1.318 1.694" />
+                    <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                    <path d="M19.001 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                    <path d="M19.001 15.5v1.5" />
+                    <path d="M19.001 21v1.5" />
+                    <path d="M22.032 17.25l-1.299 .75" />
+                    <path d="M17.27 20l-1.3 .75" />
+                    <path d="M15.97 17.25l1.3 .75" />
+                    <path d="M20.733 20l1.3 .75" />
+                </svg>
+            </div>
+        </nav>
+    </div>
 </body>
+
 
 </html>
